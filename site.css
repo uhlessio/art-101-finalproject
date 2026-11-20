@@ -1,12 +1,22 @@
 h1, h2 {
   text-align: center;
   font-size: 40px;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 20px;
+  background-color: #FFF1E6;
 }
 
 h1 {
-  color: #F5E6A8;
+  color: #F4B6C2;
 }
 
 h2 {
   color: #F4B6C2; 
+}
+
+body{
+    background-color: #e3f2fd
 }
