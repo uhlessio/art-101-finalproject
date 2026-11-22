@@ -6,6 +6,7 @@ h1,h2 {
   border-radius: 20px;
   background-color: #fff1e6e2;
   color: #F4B6C2;
+  border: 3px solid #F4B6C2;
 }
 
 h1 {
@@ -18,4 +19,40 @@ h2 {
 
 body {
   background-color: #e3f2fd
+}
+
+#game-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 30px;
+  gap: 40px;
+}
+
+#catGallery {
+  width: 65%;
+  text-align: center;
+}
+
+#accessories {
+  width: 25%;
+  background-color: #fff1e6e2;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #F4B6C2;
+  margin-top: 150px;
+}
+
+#accessories h3 {
+  color: #F4B6C2;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#accessories img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  margin: 8px;
+  cursor: pointer;
 }
